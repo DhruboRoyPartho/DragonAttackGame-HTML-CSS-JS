@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tiro+Bangla&family=VT323&display=swap');
+*{
+    font-family: 'VT323', monospace;
+    margin: 0;
+}
+
+body{
+    background: blue;
+}
+
+header{
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+header .info{
+    border: 2px solid #000;
+    display: flex;
+    padding: 10px;
+}
+
+header .info .xp-info{
+    flex: 1;
+}
+header .info .health-info{
+    flex: 1;
+}
+header .info .gold-info{
+    flex: 1;
+}
+
+header .buttons{
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+button{
+    font-size: 20px;
+}
+
+h3{
+    display: inline-block;
+    font-size: 25px;
+    /* padding: 0 20px; */
+}
+
+#xpText{
+    padding-right: 40px;
+}
+
+#healthText{
+    padding-right: 40px;
+}
+
+#goldText{
+    padding-right: 40px;
+}
+
+.textinfo{
+    background: black;
+}
+
+.textinfo p{
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.container .monster-info{
+    background: red;
+    border: 2px solid #000;
+    padding: 20px;
+    display: none;
+}
+
+.container .monster-info #monsterStat{
+    font-size: 20px;
+}
