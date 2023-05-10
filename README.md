@@ -1,2 +1,2 @@
 # DragonAttackGame-HTML-CSS-JS
-JS game
+This is a text based HTML,CSS,JS game.
